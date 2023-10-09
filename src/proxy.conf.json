@@ -1,0 +1,6 @@
+{
+	"/api2": {
+		"target": "https://api.sl.se",
+		"secure": false
+	}
+}
