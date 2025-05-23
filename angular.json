@@ -62,19 +62,19 @@
 				"serve": {
 					"builder": "@angular-devkit/build-angular:dev-server",
 					"configurations": {
-						"production": {
-							"browserTarget": "SLTravelPlan:build:production"
+            "production": {
+              "buildTarget": "SLTravelPlan:build:production"
 						},
-						"development": {
-							"browserTarget": "SLTravelPlan:build:development"
+            "development": {
+              "buildTarget": "SLTravelPlan:build:development"
 						}
 					},
 					"defaultConfiguration": "development"
 				},
 				"extract-i18n": {
 					"builder": "@angular-devkit/build-angular:extract-i18n",
-					"options": {
-						"browserTarget": "SLTravelPlan:build"
+          "options": {
+            "buildTarget": "SLTravelPlan:build"
 					}
 				},
 				"test": {
